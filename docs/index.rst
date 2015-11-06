@@ -9,10 +9,11 @@ Welcome to BookHolders' Technica 2015 Challenges!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    genindex
    videochallenge
+   getstarted
 
 Indices and tables
 ==================
@@ -21,4 +22,5 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 * :ref:`videochallenge`
+* :ref:`getstarted`
 
