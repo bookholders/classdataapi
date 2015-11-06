@@ -4,15 +4,16 @@
    contain the root `toctree` directive.
 
 Welcome to BookHolders' Technica 2015 Challenges!
-=====================================
+=================================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    genindex
    videochallenge
+   gettingstarted
 
 Indices and tables
 ==================
