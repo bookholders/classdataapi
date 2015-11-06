@@ -3,15 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to classdata's documentation!
+Welcome to BookHolders' Technica 2015 Challenges!
 =====================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   getstarted
+   apichallenge
+   videochallenge
 
 Indices and tables
 ==================
@@ -19,4 +20,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* :ref:`apichallenge`
+* :ref:`videochallenge`
 
