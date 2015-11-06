@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   apichallenge
+   genindex
    videochallenge
 
 Indices and tables
