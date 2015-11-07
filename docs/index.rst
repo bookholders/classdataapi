@@ -15,6 +15,7 @@ Contents:
    getstarted
    class
    section
+   error
 
 Indices and tables
 ==================
