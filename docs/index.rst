@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 1
 
    genfirstpage
+   getstarted
 
 Indices and tables
 ==================
