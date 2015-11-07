@@ -10,4 +10,4 @@ These are the urls to call class data API from each respective school (from UMCP
    :url: http://hackathon.bookholders.com/classdata/JHU
    :school: UMCP,TU,HU,JHU
    
-They can go as specific as school, department, :ref:`class-label` and section
+They can go as specific as school, :ref:`dept-label`, :ref:`class-label` and :ref:`section-label`
