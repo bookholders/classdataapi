@@ -2,7 +2,7 @@ Example of Class Request
 ========================
 
 
-This is example request of department for a certain school. 
+This is example request of class for a certain school. 
 
   :url: http://hackathon.bookholders.com/classdata/<school>/<class>
   :school: UMCP,TU,HU,JHU
