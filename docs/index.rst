@@ -16,6 +16,7 @@ Contents:
    getstarted
    class
    section
+   search
    error
    python
 
