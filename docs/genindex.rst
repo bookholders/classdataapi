@@ -3,10 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to BookHolders' Technica 2015 Challenges!
-=================================================
-
-Hello Technica!::
+Welcome to BookHolders' API 2015 Challenges!
+============================================
   
   Challenge #2: Most Innovative Use of Class Data API or Video Feeds
   
