@@ -19,7 +19,7 @@ This is example request of department for a certain school.
    .. code-block:: json 
 
 
-             [
+         [
             {
                "department":"AASP",
                "semester":"F15",
