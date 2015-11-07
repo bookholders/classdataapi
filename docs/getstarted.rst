@@ -1,5 +1,5 @@
-Getting Started
-===============
+Example of School Request
+=========================
 
 
 This is example request of department for a certain school. 
