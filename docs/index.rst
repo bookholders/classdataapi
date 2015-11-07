@@ -9,7 +9,7 @@ Welcome to BookHolders' API Challenges!
 Contents:
 
 .. toctree::
-   :maxdepth: 7
+   :maxdepth: 8
 
    genfirstpage
    gettingstartedurl
