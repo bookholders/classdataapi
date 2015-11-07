@@ -5,19 +5,19 @@ Example of Error Response
 This is example of an error response.
 
   :url: http://hackathon.bookholders.com/classdata/umcp/udcp
-   :school: UMCP
+  :school: UMCP
 
 
-   **Example request**:
+  **Example request**:
 
-   .. sourcecode:: http
+  .. sourcecode:: http
 
       GET /classdata/UMCP/udcp
 
-   **Example response**:
+  **Example response**:
 
    .. code-block:: json 
    
-      {  
-       "nodata":"yes"
-      }
+        {  
+         "nodata":"yes"
+        }
