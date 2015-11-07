@@ -9,7 +9,7 @@ Welcome to BookHolders' API Challenges!
 Contents:
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 7
 
    genfirstpage
    gettingstartedurl
@@ -17,6 +17,7 @@ Contents:
    class
    section
    error
+   python
 
 Indices and tables
 ==================
