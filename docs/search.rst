@@ -11,7 +11,6 @@ This is example request of search.
    :room: 1407
    :section: 6236
 
-
    **Example request**:
    
    .. sourcecode:: http
