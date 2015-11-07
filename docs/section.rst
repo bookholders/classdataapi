@@ -6,6 +6,8 @@ This is example request of department for a certain school.
 
    :url: http://hackathon.bookholders.com/classdata/<school>/<class>/<section>
    :school: UMCP,TU,HU,JHU
+   :class: AASP,ANTH207
+   :section: AASP101,ANTH207
 
 
 **Example request**:
