@@ -9,15 +9,15 @@ This is example request of class for a certain school.
   :class: AASP,ANTH
 
 
-**Example request**:
-
-.. sourcecode:: http
-
-   GET /classdata/UMCP/aasp
-
-**Example response**:
-
-.. code-block:: json 
+  **Example request**:
+  
+  .. sourcecode:: http
+  
+     GET /classdata/UMCP/aasp
+  
+  **Example response**:
+  
+  .. code-block:: json 
 
         [  
         {  
