@@ -18,6 +18,6 @@ This is example of an error response.
 
    .. code-block:: json 
    
-        {  
-         "nodata":"yes"
-        }
+      {  
+       "nodata":"yes"
+      }
