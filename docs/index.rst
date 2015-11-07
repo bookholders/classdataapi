@@ -9,10 +9,12 @@ Welcome to BookHolders' API Challenges!
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    genfirstpage
    getstarted
+   class
+   section
 
 Indices and tables
 ==================
