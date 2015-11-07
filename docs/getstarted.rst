@@ -4,8 +4,11 @@ Example of Department Request
 
 This is example request of department for a certain school. 
 
-   :url: http://hackathon.bookholders.com/classdata/<school>
-   :school: UMCP,TU
+   :url: http://hackathon.bookholders.com/classdata/UMCP
+   :url: http://hackathon.bookholders.com/classdata/TU
+   :url: http://hackathon.bookholders.com/classdata/HU
+   :url: http://hackathon.bookholders.com/classdata/JHU
+   :school: UMCP,TU,HU,JHU
 
 
    **Example request**:
