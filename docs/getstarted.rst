@@ -1,9 +1,10 @@
-Example of School Request
-=========================
+Example of Department Request
+=============================
 
 
 This is example request of department for a certain school. 
 
+   :url: http://hackathon.bookholders.com/classdata/<school>
    :school: UMCP,TU
 
 
