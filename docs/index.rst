@@ -16,13 +16,9 @@ Contents:
    getstarted
    class
    section
-   search
+   searchex
    error
    python
 
-Indices and tables
-==================
 
-* :ref:`modindex`
-* :ref:`search`
 
