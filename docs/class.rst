@@ -4,8 +4,9 @@ Example of Class Request
 
 This is example request of department for a certain school. 
 
-  :url: http://hackathon.bookholders.com/classdata/<school>/<department>
+  :url: http://hackathon.bookholders.com/classdata/<school>/<class>
   :school: UMCP,TU,HU,JHU
+  :class: AASP,ANTH
 
 
 **Example request**:
