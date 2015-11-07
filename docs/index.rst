@@ -9,9 +9,10 @@ Welcome to BookHolders' API Challenges!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
 
    genfirstpage
+   gettingstartedurl
    getstarted
    class
    section
