@@ -1,5 +1,5 @@
 Search Request
-==========================
+==============
 
 
 This is example request of search. 
