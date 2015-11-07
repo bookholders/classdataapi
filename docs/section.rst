@@ -10,15 +10,15 @@ This is example request of class section for a certain school.
    :section: AASP101,ANTH207
 
 
-**Example request**:
-
-.. sourcecode:: http
-
-   GET /classdata/UMCP/aasp/aasp100
-
-**Example response**:
-
-.. code-block:: json 
+   **Example request**:
+   
+   .. sourcecode:: http
+   
+      GET /classdata/UMCP/aasp/aasp100
+   
+   **Example response**:
+   
+   .. code-block:: json 
 
         [  
         {  
