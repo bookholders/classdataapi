@@ -1,3 +1,5 @@
+.. _dept-label:
+
 Example of Department Request
 =============================
 
