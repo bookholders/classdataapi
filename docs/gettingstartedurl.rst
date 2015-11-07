@@ -11,3 +11,5 @@ These are the urls to call class data API from each respective school (from UMCP
    :school: UMCP,TU,HU,JHU
    
 They can go as specific as school, :ref:`dept-label`, :ref:`class-label` and :ref:`section-label`
+
+Check out a :ref:`python-label` to get started.
