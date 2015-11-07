@@ -4,7 +4,10 @@ Example of Section Request
 
 This is example request of department for a certain school. 
 
-   :url: http://hackathon.bookholders.com/classdata/<school>
+   :url: http://hackathon.bookholders.com/classdata/UMCP/aasp/aasp100
+   :url: http://hackathon.bookholders.com/classdata/TU/anth/anth/anth207
+   :url: http://hackathon.bookholders.com/classdata/HU/
+   :url: http://hackathon.bookholders.com/classdata/JHU/as.010/as.010.316
    :school: UMCP,TU
 
 
