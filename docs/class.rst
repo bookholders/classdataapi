@@ -1,3 +1,5 @@
+.. _class-label:
+
 Example of Class Request
 ========================
 
