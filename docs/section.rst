@@ -2,7 +2,7 @@ Example of Section Request
 ==========================
 
 
-This is example request of department for a certain school. 
+This is example request of class section for a certain school. 
 
    :url: http://hackathon.bookholders.com/classdata/<school>/<class>/<section>
    :school: UMCP,TU,HU,JHU
