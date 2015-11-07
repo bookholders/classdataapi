@@ -1,3 +1,5 @@
+.. _section-label:
+
 Example of Section Request
 ==========================
 
