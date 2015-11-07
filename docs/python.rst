@@ -1,3 +1,5 @@
+.. _python-label:
+
 Example of how to use Python with the API
 =========================================
 
