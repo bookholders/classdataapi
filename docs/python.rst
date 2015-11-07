@@ -3,6 +3,8 @@ Example of how to use Python with the API
 
 Example:
 
+.. code-block:: python
+
     import urllib.request
     import json
     
