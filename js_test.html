@@ -5,10 +5,10 @@
 	<script type="text/javascript">
 		var group = "";
 		function post(){
-			var jsonData = document.getElementById("jsonArea").value;
+			var parameters = document.getElementById("parameters").value;
 			//create xhr
 			var postXHR = new XMLHttpRequest();
-			postXHR.open('POST', 'http://hackathon.bookholders.com/classdata/UMCP', true);
+			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/' + parameters, true);
 			
 			try{
 				postXHR.send(null);
@@ -19,8 +19,16 @@
 			
 			postXHR.onloadend = function(){
 				try {
-				var str = JSON.stringify(JSON.parse(postXHR.response), null, 2);
-				document.getElementById("jsonOutput").innerHTML = str;
+				var jsonobj = JSON.parse(postXHR.response);
+				var stuff;
+
+				if (jsonobj[0] !== undefined) {
+					stuff = 'Semester: ' + jsonobj[0].semester + '</br>';
+				} else {
+					stuff = '';
+				}
+				stuff += JSON.stringify(jsonobj, null, 2) ;
+				document.getElementById("jsonOutput").innerHTML = stuff;
 				} catch(e){
 				document.getElementById('jsonOutput').innerHTML = "Error Exception: "+e;
 				}
@@ -30,14 +38,15 @@
 </head>
 <body>
 	<div>
-		<h1 align="center"></h1>
+		<h1 align="center">JS TEST  of CLASS DATA API</h1>
 		<p align="center"></p>
-		<p align="center">JSON Input: </p>
-		<form>
-			<textarea id="jsonArea" rows="20" cols="60"></textarea><br/>
+		<p align="center" >API Input: </p>
+		<form style='text-align: center;'>
+			http://hackathon.bookholders.com/classdata/<input type="text" id="parameters" name="parameters" onkeydown="if (event.keyCode == 13) { post(); return false; }"><br/>
 			<button type="button" id="submitButton" onclick="post()" accesskey="s">Submit</button>
 		</form>
-		<p id="jsonOutput"></p>
+		
+		<p id="jsonOutput" align="center" ></p>
 	</div>
 </body>
 </html>
