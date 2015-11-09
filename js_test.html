@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Class Data API</title>
+	<style>
+		body{
+			font-family: "Lucida Console";
+		}
+		div{
+			margin:0 auto;
+			height:40%;
+			width:50%
+		}
+		label{
+			text-align:right;
+			display: inline-block;
+    		float: left;
+    		clear: left;
+    		width: 250px;
+		}
+		input{
+			width:400px;
+			height:18px;
+			margin:0 auto;
+		}
+		button{
+			margin:0 auto;
+			display:block;
+			width:75px;
+			height:20px;
+			border-radius: 5px;
+		}
+		textarea{
+			display: block;
+    		margin-left: auto;
+   			margin-right: auto;
+		}
+	</style>
+	<script type="text/javascript">
+		var group = "";
+		function post(){
+			var jsonData = document.getElementById("jsonArea").value;
+			//create xhr
+			var postXHR = new XMLHttpRequest();
+			postXHR.open('POST', 'http://hackathon.bookholders.com/classdata/UMCP', true);
+			
+			try{
+				postXHR.send(null);
+				document.getElementById('jsonOutput').innerHTML = "Loading...";
+			}catch(e){
+				document.getElementById('jsonOutput').innerHTML = "Error Exception: "+e;
+			}
+			
+			postXHR.onloadend = function(){
+				try {
+				var str = JSON.stringify(JSON.parse(postXHR.response), null, 2);
+				document.getElementById("jsonOutput").innerHTML = str;
+				} catch(e){
+				document.getElementById('jsonOutput').innerHTML = "Error Exception: "+e;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<h1 align="center"></h1>
+		<p align="center"></p>
+		<p align="center">JSON Input: </p>
+		<form>
+			<textarea id="jsonArea" rows="20" cols="60"></textarea><br/>
+			<button type="button" id="submitButton" onclick="post()" accesskey="s">Submit</button>
+		</form>
+		<p id="jsonOutput"></p>
+	</div>
+</body>
+</html>
