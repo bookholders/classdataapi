@@ -14,4 +14,4 @@ They can go as specific as school, :ref:`dept-label`, :ref:`class-label` and :re
 
 Check out a :ref:`python-label` to get started.
 
-Check out a :ref:'javascript-label' to get started.
+Check out a :ref:`javascript-label` to get started.
