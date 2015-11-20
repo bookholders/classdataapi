@@ -19,6 +19,7 @@ Contents:
    searchex
    error
    python
+   js
 
 
 
