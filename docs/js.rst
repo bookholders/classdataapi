@@ -7,16 +7,6 @@ Example:
 
 .. code-block:: javascript
 
-    import urllib.request
-    import json
-    
-    
-    school = "UMCP"
-    dept = "AASP"
-    
-    
-    url = "http://hackathon.bookholders.com/classdata/{}/{}".format(school,dept)
-   
     <!DOCTYPE html>
     <html>
     <head>
