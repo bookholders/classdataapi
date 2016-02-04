@@ -1,4 +1,4 @@
-Welcome to BookHolders' API 2015 Challenges!
+Welcome to BookHolders' API 2016 Challenges!
 ============================================
   
 Challenge #2: Most Innovative Use of Class Data API or Video Feeds
