@@ -11,7 +11,7 @@ This is example request of class for a certain school.
   :class: AASP,ANTH
 
 Here is a working example:
-http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010/AS.010.102
+http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010
 
 
   **Example request**:
