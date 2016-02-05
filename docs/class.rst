@@ -6,7 +6,7 @@ Example of Class Request
 
 This is example request of class for a certain school. 
 
-  :url: http://hackathon.bookholders.com/classdata/v1/s16<school>/<class>
+  :url: http://hackathon.bookholders.com/classdata/v1/s16/<school>/<class>
   :school: UMCP,TU,HU,JHU
   :class: AASP,ANTH
 
