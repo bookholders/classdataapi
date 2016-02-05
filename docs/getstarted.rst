@@ -3,16 +3,14 @@
 Example of Department Request
 =============================
 
-Here are a couple Live Demos: 
-
-http://hackathon.bookholders.com/classdata/v1/s16/JHU
-http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010
-http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010/AS.010.102
 
 This is example request of department for a certain school. 
 
    :url: http://hackathon.bookholders.com/classdata/v1/s16/<school>
    :school: UMCP,TU,HU,JHU
+
+Here is a working example:
+http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010
 
 
    **Example request**:
