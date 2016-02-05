@@ -3,6 +3,8 @@
 Example of how to use JavaScript with the API
 =============================================
 
+Working Live Demo: http://bookholders.org/hophacks/js.html
+
 Example:
 
 .. code-block:: javascript
@@ -59,4 +61,3 @@ Example:
     </body>
     </html>
 
-Working Example: http://bookholders.org/hophacks/js.html
