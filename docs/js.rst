@@ -17,7 +17,7 @@ Example:
 			var parameters = document.getElementById("parameters").value;
 			//create xhr
 			var postXHR = new XMLHttpRequest();
-			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/UMCP/AASP' + parameters, true);
+			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/' + parameters, true);
 			
 			try{
 				postXHR.send(null);
@@ -50,7 +50,7 @@ Example:
 		<p align="center"></p>
 		<p align="center" >API Input: </p>
 		<form style='text-align: center;'>
-			http://hackathon.bookholders.com/classdata/UMCP/AASP<input type="text" id="parameters" name="parameters" onkeydown="if (event.keyCode == 13) { post(); return false; }"><br/>
+			http://hackathon.bookholders.com/classdata/<input type="text" id="parameters" name="parameters" onkeydown="if (event.keyCode == 13) { post(); return false; }"><br/>
 			<button type="button" id="submitButton" onclick="post()" accesskey="s">Submit</button>
 		</form>
 		
@@ -58,5 +58,3 @@ Example:
 	</div>
     </body>
     </html>
-    
-   
