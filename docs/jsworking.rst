@@ -1,5 +1,7 @@
-Example of how to use JavaScript with the API
-=============================================
+Example of of a Working JavaScript with the API
+===============================================
+
+.. _javascript-label:
 
 Working Example:
 
