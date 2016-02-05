@@ -58,6 +58,7 @@ Example:
 	</div>
     </body>
     </html>
+    
    
 Working Example:
 
@@ -73,7 +74,7 @@ Working Example:
 			var parameters = document.getElementById("parameters").value;
 			//create xhr
 			var postXHR = new XMLHttpRequest();
-			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/UMCP/AASP);
+			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/UMCP/AASP' + parameters, true);
 			
 			try{
 				postXHR.send(null);
