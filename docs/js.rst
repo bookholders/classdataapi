@@ -17,7 +17,7 @@ Example:
 			var parameters = document.getElementById("parameters").value;
 			//create xhr
 			var postXHR = new XMLHttpRequest();
-			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/' + parameters, true);
+			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/UMCP/AASP' + parameters, true);
 			
 			try{
 				postXHR.send(null);
