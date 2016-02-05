@@ -11,7 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 8
 
-   genfirstpage
    gettingstartedurl
    getstarted
    class
@@ -20,6 +19,7 @@ Contents:
    error
    python
    js
+   jsworking
 
 
 
