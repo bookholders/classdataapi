@@ -4,7 +4,7 @@ Example of Error Response
 
 This is example of an error response.
 
-  :url: http://hackathon.bookholders.com/classdata/umcp/udcp
+  :url: http://hackathon.bookholders.com/classdata/v1/s16/umcp/udcp
   :school: UMCP
 
 
