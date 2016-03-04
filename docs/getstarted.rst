@@ -10,7 +10,7 @@ This is example request of department for a certain school.
    :school: UMCP,TU,HU,JHU
 
 Here is a working example:
-http://hackathon.bookholders.com/classdata/v1/s16/JHU
+http://hackathon.bookholders.com/classdata/v1/s16/UMCP
 
 
    **Example request**:
