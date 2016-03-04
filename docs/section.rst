@@ -6,13 +6,13 @@ Section Request
 
 This is example request of class section for a certain school. 
 
-   :url: http://hackathon.bookholders.com/classdata/v1/s16/<school>/<class>/<section>
+   :url: http://hackathon.bookholders.com/classdata/v1/F15/<school>/<class>/<section>
    :school: UMCP,TU,HU,JHU
    :class: AASP,ANTH207
    :section: AASP101,ANTH207
    
 Here is a working example:
-http://hackathon.bookholders.com/classdata/v1/s16/JHU/AS.010/AS.010.102
+http://hackathon.bookholders.com/classdata/v1/F15/JHU/UMCP/aasp/aasp100
 
    **Example request**:
    
