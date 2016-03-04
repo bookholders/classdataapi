@@ -13,11 +13,15 @@ This is example request of search.
    :room: 0126
    :section: 0101
 
+Here is a working example:
+http://hackathon.bookholders.com/classdata/v1/s16/UMCP/search?professor=wien&days=tu&building=key&room=0126&section=0101
+
    **Example request**:
    
    .. sourcecode:: http
    
       GET /classdata/v1/s16/UMCP/search?professor=wien&days=tu&building=key&room=0126&section=0101
+      
    
    **Example response**:
    
