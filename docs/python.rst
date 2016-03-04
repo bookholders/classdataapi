@@ -15,7 +15,7 @@ Example:
     dept = "AASP"
     
     
-    url = "http://hackathon.bookholders.com/classdata/v1/s16/{}/{}".format(school,dept)
+    url = "http://hackathon.bookholders.com/classdata/v1/F15/{}/{}".format(school,dept)
     
     
     response = urllib.request.urlopen(url)
