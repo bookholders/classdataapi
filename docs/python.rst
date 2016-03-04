@@ -33,7 +33,7 @@ Example:
    
    .. sourcecode:: http
    
-      http://hackathon.bookholders.com/classdata/v1/s16/UMCP/HIST/HIST245
+      http://hackathon.bookholders.com/classdata/v1/F15/UMCP/AASP
    
    **Example response**:
    
