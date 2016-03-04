@@ -1,0 +1,36 @@
+{% extends "!layout.html" %}
+
+{%- block extrahead %} 
+ <script type="text/javascript">
+  var group = "";
+		function post(){
+			var parameters = document.getElementById("parameters").value;
+			//create xhr
+			var postXHR = new XMLHttpRequest();
+			postXHR.open('GET', 'http://hackathon.bookholders.com/classdata/' + parameters, true);
+			
+			try{
+				postXHR.send(null);
+				document.getElementById('jsonOutput').innerHTML = "Loading...";
+			}catch(e){
+				document.getElementById('jsonOutput').innerHTML = "Error Exception: "+e;
+			}
+			
+			postXHR.onloadend = function(){
+				try {
+				var jsonobj = JSON.parse(postXHR.response);
+				var stuff;
+				if (jsonobj[0] !== undefined) {
+					stuff = 'Semester: ' + jsonobj[0].semester + '</br>';
+				} else {
+					stuff = '';
+				}
+				stuff += JSON.stringify(jsonobj, null, 2) ;
+				document.getElementById("jsonOutput").innerHTML = stuff;
+				} catch(e){
+				document.getElementById('jsonOutput').innerHTML = "Error Exception: "+e;
+				}
+			}
+		}
+	  </script>      
+{% endblock %}
