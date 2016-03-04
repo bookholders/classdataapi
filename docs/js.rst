@@ -39,9 +39,7 @@ Example of how to use JavaScript with the API
 		}
 	</script>
 	
-=======
-Example
-=======
+
 
 .. raw:: html
 
