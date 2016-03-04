@@ -1,7 +1,7 @@
 .. _class-label:
 
-Example of Class Request
-========================
+Class Request
+=============
 
 
 This is example request of class for a certain school. 
