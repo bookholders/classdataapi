@@ -9,10 +9,6 @@ Example:
 
 .. raw:: html
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-	<title>Test Class Data API</title>
 	<script type="text/javascript">
 		var group = "";
 		function post(){
@@ -45,7 +41,13 @@ Example:
 			}
 		}
 	</script>
-	</head>
+	
+====
+Test
+====
+
+    <!DOCTYPE html>
+    <html>
 	<body>
 	<div>
 		<h1 align="center">JS TEST  of CLASS DATA API</h1>
