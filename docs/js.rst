@@ -3,7 +3,6 @@
 Example of how to use JavaScript with the API
 =============================================
 
-Working Live Demo: http://bookholders.org/hophacks/js.html
 
 .. raw:: html
 
