@@ -7,7 +7,7 @@ Working Live Demo: http://bookholders.org/hophacks/js.html
 
 Example:
 
-.. code-block:: javascript
+.. raw:: html
 
     <!DOCTYPE html>
     <html>
