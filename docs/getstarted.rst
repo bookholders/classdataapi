@@ -1,7 +1,7 @@
 .. _dept-label:
 
-Example of Department Request
-=============================
+Department Request
+==================
 
 
 This is example request of department for a certain school. 
