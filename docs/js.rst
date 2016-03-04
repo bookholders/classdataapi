@@ -5,8 +5,6 @@ Example of how to use JavaScript with the API
 
 Working Live Demo: http://bookholders.org/hophacks/js.html
 
-Example:
-
 .. raw:: html
 
 	<script type="text/javascript">
@@ -42,9 +40,11 @@ Example:
 		}
 	</script>
 	
-====
-Test
-====
+=======
+Example
+=======
+
+.. raw:: html
 
     <!DOCTYPE html>
     <html>
