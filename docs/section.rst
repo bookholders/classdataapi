@@ -1,7 +1,7 @@
 .. _section-label:
 
-Example of Section Request
-==========================
+Section Request
+===============
 
 
 This is example request of class section for a certain school. 
