@@ -12,7 +12,7 @@ This is example request of class section for a certain school.
    :section: AASP101,ANTH207
    
 Here is a working example:
-http://hackathon.bookholders.com/classdata/v1/F15/JHU/UMCP/aasp/aasp100
+http://hackathon.bookholders.com/classdata/v1/F15/UMCP/aasp/aasp100
 
    **Example request**:
    
