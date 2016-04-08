@@ -7,7 +7,7 @@ Department Request
 This is example request of department for a certain school. 
 
    :url: http://hackathon.bookholders.com/classdata/v1/s16/<school>
-   :school: UMCP,TU,HU,JHU
+   :school: UMCP,TU,HU,JHU,MSU,VT,VCU,WVU,USF,UT,RU
 
 Here is a working example:
 http://hackathon.bookholders.com/classdata/v1/s16/UMCP
