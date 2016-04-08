@@ -7,7 +7,7 @@ Search Request
 This is example request of search. 
 
    :url: http://hackathon.bookholders.com/classdata/v1/s16/<school>/search?professor=<professor>&days=<days>&building=<building>&room=<room>&section=<section>
-   :school: UMCP,TU,HU,JHU
+   :school: UMCP,TU,HU,JHU,MSU,VT,VCU,WVU,USF,UT,RU
    :days: m,tu,w,th,f
    :building: key
    :room: 0126
