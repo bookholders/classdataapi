@@ -8,7 +8,7 @@ These are the urls to call class data API from each respective school (from UMCP
    :url: http://hackathon.bookholders.com/classdata/v1/s16/TU
    :url: http://hackathon.bookholders.com/classdata/v1/s16/HU
    :url: http://hackathon.bookholders.com/classdata/v1/s16/JHU
-   :url: http://hackathon.bookholders.com/classdata/v1/s16/MSU
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/Morgan
    :url: http://hackathon.bookholders.com/classdata/v1/s16/VT
    :url: http://hackathon.bookholders.com/classdata/v1/s16/VCU
    :url: http://hackathon.bookholders.com/classdata/v1/s16/WVU
