@@ -7,7 +7,7 @@ Class Request
 This is example request of class for a certain school. 
 
   :url: http://hackathon.bookholders.com/classdata/v1/F15/<school>/<class>
-  :school: UMCP,TU,HU,JHU
+  :school: UMCP,TU,HU,JHU,MSU,VT,VCU,WVU,USF,UT,RU
   :class: AASP,ANTH
 
 Here is a working example:
