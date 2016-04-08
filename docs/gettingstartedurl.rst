@@ -15,7 +15,7 @@ These are the urls to call class data API from each respective school (from UMCP
    :url: http://hackathon.bookholders.com/classdata/v1/s16/USF
    :url: http://hackathon.bookholders.com/classdata/v1/s16/UT
    :url: http://hackathon.bookholders.com/classdata/v1/s16/RU
-   :school: UMCP,TU,HU,JHU,MSU,VT,VCU,WVU,USF,UT,RU
+   :school: UMCP,TU,HU,JHU,Morgan,VT,VCU,WVU,USF,UT,RU
    
 They can go as specific as school, :ref:`dept-label`, :ref:`class-label` and :ref:`section-label`
 
