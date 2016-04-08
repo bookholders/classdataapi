@@ -8,7 +8,14 @@ These are the urls to call class data API from each respective school (from UMCP
    :url: http://hackathon.bookholders.com/classdata/v1/s16/TU
    :url: http://hackathon.bookholders.com/classdata/v1/s16/HU
    :url: http://hackathon.bookholders.com/classdata/v1/s16/JHU
-   :school: UMCP,TU,HU,JHU
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/MSU
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/VT
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/VCU
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/WVU
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/USF
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/UT
+   :url: http://hackathon.bookholders.com/classdata/v1/s16/RU
+   :school: UMCP,TU,HU,JHU,MSU,VT,VCU,WVU,USF,UT,RU
    
 They can go as specific as school, :ref:`dept-label`, :ref:`class-label` and :ref:`section-label`
 
